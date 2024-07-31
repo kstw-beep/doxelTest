@@ -17,6 +17,6 @@ You may also see any lint errors in the console.
 
 ## Things Missed/Not Quite Working/Known Issues
 
--Could not get sort to work properly
--Runtime Error: Maximum call stack size exceeded
--Content should be showing either text or image and is currently showing both
+<br />-Could not get sort to work properly
+<br />-Runtime Error: Maximum call stack size exceeded
+<br />-Content should be showing either text or image and is currently showing both
