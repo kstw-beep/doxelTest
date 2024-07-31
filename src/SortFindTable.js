@@ -74,7 +74,6 @@ function SortFindTable() {
         <h1 className='text-center mt-4'>Telemetry Records</h1>
         <Form>
           <InputGroup className='my-3'>
-            {/* onChange for search */}
             <Form.Control
               onChange={(e) => setSearch(e.target.value)}
               placeholder='Search Id'
