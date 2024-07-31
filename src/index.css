@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.table_container {
+  /* max-width: 750px;
+  max-height: 500px; */
+  margin: 0 auto;
+  overflow: auto;
+  display: block;
+  table-layout: auto;
+}
