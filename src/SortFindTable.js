@@ -42,7 +42,7 @@ function SortFindTable() {
   ];
 
   function timeConverter(UNIX_timestamp) {
-    var a = new Date(UNIX_timestamp * 1000);
+    var a = new Date(UNIX_timestamp);
     var months = [
       'Jan',
       'Feb',
@@ -98,7 +98,9 @@ function SortFindTable() {
           <tbody>
             {tableData1
               .filter((accessor) => {
-                return search === '' ? accessor : accessor.id.includes(search);
+                return search === ''
+                  ? accessor.id
+                  : accessor.id.includes(search);
               })
               .map((accessor) => (
                 <tr key={accessor.id}>
